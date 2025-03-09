@@ -33,11 +33,6 @@ env:
   MAKE_DOCKER_SH: config/docker/make_docker_image.sh
   DOCKER_OUTPATH: out
 
-secrets:
-	DOCKERHUB_USERNAME: goneyes
- 	DOCKERHUB_PASSWORD: Liang0766527523
-	GITHUB_TOKEN: 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
-
 jobs:
   build:
     runs-on: ubuntu-22.04
